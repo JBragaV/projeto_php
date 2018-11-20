@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<fieldset>
+    <legend>Adcionar Torcedor</legend>
+    <form action = "nova_acao_php/adcionar.php" method = "post">
+        <table>
+            <tr>
+                <th>Nome:</th>
+                <td><input type="text" name="nome" placeholder="Nome completo"></td>
+            </tr>
+            <tr>
+                <th>Login</th>
+                <td><input type="text" name="login" placeholder="login"></td>
+            </tr>
+            <tr>
+                <th>Senha</th>
+                <td><input type="password" name="senha" placeholder="senha"></td>
+            </tr>
+            <tr>
+                <th>Tipo de Usuário</th>
+                <td><input type="text" name="tipo" placeholder="Administrador ou comum"></td>
+            </tr>
+            <tr>
+                <th>Time do coração</th>
+                <td><input type="text" name="time" placeholder="Time do coração"></td>
+            </tr>
+            <tr>
+                <td><button type="submit">Adcionar</button></td>
+                <td><a href="index.php"><button type="button">Voltar</button></a></td>
+            </tr>
+        </table>
+    </form>
+</fieldset>
+</body>
+</html>
